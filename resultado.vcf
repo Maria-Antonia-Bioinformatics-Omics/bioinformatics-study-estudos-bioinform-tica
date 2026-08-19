@@ -1,0 +1,9 @@
+##fileformat=VCFv4.2 (É a "assinatura" que diz aos softwares que este é um arquivo de variantes válido.)
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	referencia_genoma	4	.	A	G	50	PASS	
+
+#CHROM (Cromossomo onde a mutação foi encontrada)
+# POS (A posição exata (o endereço numérico) da letra no genoma (no nosso caso, a posição 4).)
+#ID (Identificador da mutação)
+# ALT (A letra alternativa que a sua amostra apresentou, mostrando onde ocorreu a mutação (no nosso caso, virou G).)
+# QUAL Qualidade matemática daquela chamada de variante (o quão confiável é o resultado, que colocamos como 50).
+# FILTER (e a variante passou nos testes de controle de qualidade (marcado como PASS, ou seja, aprovada).)
